@@ -20,13 +20,13 @@ const ExploreCard = ({ id, heading, img1, content, index, active, handleClick })
     variants={cardVariants}
     className={`relative overflow-hidden ${
       active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
-    } flex items-center justify-center min-w-[150px] h-[700px] lg:h-[400px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
+    } flex items-center justify-center min-w-[120px] h-[700px] lg:h-[400px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
     <Image
       src={img1}
       alt="theme"
-      className="absolute w-full h-full object-cover rounded-[24px]"
+      className="absolute w-full h-full object-cover rounded-[24px] opacity-60"
     />
     
     {active !== id ? (

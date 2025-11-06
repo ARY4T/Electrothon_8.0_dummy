@@ -103,7 +103,11 @@ const MainPg = () => {
               padding: "0 20px",
             }}
           >
-            Labyrinth of Eternum
+            Labyrinth of Eternum 
+            {/* Dates below subtitle */}
+          <div className="text-[16px] sm:text-[22px] md:text-[28px] lg:text-[32px]  mt-2 tracking-wide">
+            13 – 15 March, 2026
+          </div>
           </span>
         </div>
 

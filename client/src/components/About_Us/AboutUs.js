@@ -61,7 +61,7 @@ const AboutUs = () => {
         >
           <h2
             className={`${pirataOne.className} text-[40px] sm:text-[70px] md:text-[100px] lg:text-[5.5rem] text-center text-white mb-0`}
-            style={{ textShadow: "-5px 8px 4px rgba(0, 0, 0, 0.5)" }}
+            style={{ fontFamily: "Pirata One, sans-serif", textShadow: "-5px 8px 4px rgba(0, 0, 0, 0.5) " }}
           >
             About Us
           </h2>
@@ -77,24 +77,17 @@ const AboutUs = () => {
             className="relative z-10 w-full flex items-center justify-center"
           >
             <p className="font-humanistika text-base md:text-xl lg:text-[28px] lg:leading-[36px] font-normal text-white leading-[1.3] text-center md:text-left">
-              Prepare to embark on an extraordinary journey into the Colosseum
-              of Code as we unveil the 7th in-person edition of Electrothon!
-              This year, under the banner of a medieval realm, we invite you to
-              a battlefield where code meets creativity and innovation becomes
-              legendary.
+            Welcome to Electrothon 8.0, where the world of hackathons gets a retro revival!
+            This year, we’re leveling up into the Arcade of Innovation — a vibrant arena where creativity, skill, and technology collide.From pixelated dreams to futuristic visions, every project is a new high score waiting to be achieved.
+
               <br />
               <br />
-              Spearheaded by the dynamic student community SPEC and illuminated
-              by the vibrant energy of NIT Hamirpur, Electrothon has left an
-              indelible mark on the tech community, empowering over 6000
-              students to unleash their potential.
+              Organized by SPEC, the dynamic technical community of NIT Hamirpur, Electrothon continues its legacy as one of North India’s most iconic hackathons, empowering thousands of students to play, build, and innovate without limits.
+
               <br />
               <br />
-              In previous editions, budding innovators wove spells of
-              technology, transforming visions into reality. Now, in this
-              medieval chapter, prepare to arm yourself with ingenuity, compete
-              with the bravest of coders, and forge groundbreaking solutions
-              that will echo through the halls of innovation.
+              In our previous editions, we’ve witnessed brilliant minds turn ideas into reality i.e. crafting solutions that redefined possibilities. Now, in this Arcade Edition, get ready to power up your imagination, unlock new challenges, and press “Start” on a journey that celebrates the joy of coding and the thrill of creation.
+
             </p>
           </motion.div>
         </motion.div>
