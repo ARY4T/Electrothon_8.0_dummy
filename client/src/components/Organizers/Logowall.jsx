@@ -103,18 +103,15 @@ const secondYear = [
   altText: org.name
 }));
 
-const thirdYear = [
-  ...thirdYearOrganizers,
-].map(org => ({
-  imgUrl: org.image,
-  altText: org.name
-}));
+// Intentionally keep thirdYear empty so third-year organizers are not shown on the site.
+// This is safer than removing imports and makes the hiding reversible by changing [] back to the mapped list.
+const thirdYear = [];
 
 // Use LogoWall with organizers
 export default function OrganizersLogoWall() {
   return (
     <div>
-    <LogoWall
+    {/* <LogoWall
       items={thirdYear}
       direction="horizontal"
       pauseOnHover={true}
@@ -122,7 +119,7 @@ export default function OrganizersLogoWall() {
       duration="60s"
       bgColor="transparent"
       bgAccentColor="transparent"
-    />
+    /> */}
     <LogoWall
       items={secondYear}
       direction="horizontal"
