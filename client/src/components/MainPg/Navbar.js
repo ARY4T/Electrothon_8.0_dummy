@@ -189,6 +189,7 @@ const Navbar = () => {
     { name: "About Us", href: "#about", icon: aboutIcon },
     { name: "Judges", href: "#judges" },
     { name: "Sponsors", href: "#sponsors", icon: sponsorIcon },
+    { name: "Themes", href: "#themes", icon: themeIcon },
     { name: "Testimonials", href: "#testimonials" },
     { name: "Organizers", href: "#Organizers" },
     { name: "FAQ", href: "#faq", icon: faqIcon },
