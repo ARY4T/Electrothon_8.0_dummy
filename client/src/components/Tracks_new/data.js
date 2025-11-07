@@ -51,12 +51,14 @@ import open_innov from "@/assets/ThemeSection/open_innov.webp";
 import climate from "@/assets/ThemeSection/climate.webp";
 
 
+
+
 export const tabData = [
   {
     id: "world-1",
     heading: "Travel and Tourism",
     content:
-      "Across vast kingdoms and treacherous seas, the movement of people and goods faces many challenges. Knights and merchants alike seek safer passages and better accommodations. Enter the Colosseum to forge innovations that will revolutionize the way our realm travels.",
+      "Across pixel worlds and neon highways, players face endless checkpoints and power-ups while exploring new zones. Travelers and traders are on the hunt for faster routes and cooler respawn spots. Step into the Arena and level-up the next big upgrade that will transform how our world moves.",
     img1: foodtech, // Consider updating this variable name to match content
     prize_amt: "To be announced",
   },
@@ -65,7 +67,7 @@ export const tabData = [
     id: "world-2", // Added missing ID
     heading: "Climate Emergency",
     content:
-      "Our kingdom faces droughts, floods, and changing seasons unlike any in remembered history. The royal scribes warn of dire consequences if action is not taken. Enter the arena and battle with solutions that can help our realm adapt to these changing times and protect our lands.",
+      "Our world is glitching—heatwaves, flash floods, and unpredictable seasons are hitting harder than ever. System warnings are flashing red: take action or face a critical game-over. Step into the Arena, equip your best upgrades, and design game-changing strategies to help our planet adapt and protect our zones.",
     img1: climate,
     prize_amt: "To be announced",
   },
@@ -74,7 +76,7 @@ export const tabData = [
     id: "world-3",
     heading: "Healthcare",
     content:
-      "The royal physicians and healers work tirelessly, yet plagues and ailments continue to afflict our people. The Colosseum calls for brave warriors of code to develop tools and remedies that can aid our healers in diagnosing illness, tracking outbreaks, and improving the health of all citizens.",
+      "Even with top-tier med-stations and expert healers on the roster, new viruses and glitches keep spawning across the map. The Arena calls for skilled coders to build power-ups and smart scanners that help diagnose issues, track outbreaks in real time, and boost the health stats of every player in the system.",
     img1: health,
     prize_amt: "To be announced",
   },
@@ -83,7 +85,7 @@ export const tabData = [
     id: "world-4",
     heading: "Cyber Security and Blockchain",
     content:
-      "Our realm's treasuries and secret communications face threats from unseen enemies. The royal cryptographers seek new methods to protect our valuable information and assets. Step into the Colosseum to forge impenetrable shields and unbreakable codes that will safeguard our kingdom.",
+      "Our digital vaults and secret channels are under constant attack from stealthy enemy hackers. Expert code-masters are searching for next-gen defenses to keep our data and assets safe. Enter the Arena to build unbreakable firewalls, glitch-proof chains, and powerful security upgrades to protect every zone in the network.",
     img1: blockchain,
     prize_amt: "To be announced",
   },
@@ -92,7 +94,7 @@ export const tabData = [
     id: "world-5",
     heading: "EdTech",
     content:
-      "Knowledge is power, and it must reach all corners of our kingdom—from the highest towers to the humblest villages. The royal scholars seek new ways to spread wisdom efficiently. Enter the Colosseum to create tools that will enlighten our people and prepare the next generation of champions.",
+      "XP comes from learning, and every player deserves access—whether they're in the main hub or a remote side quest. Game-scholars are on the lookout for faster, smarter ways to share skills across the map. Step into the Arena to build learning power-ups and digital classrooms that level-up minds and train the next generation of champions.",
     img1: Edtech,
     prize_amt: "To be announced",
   },
@@ -101,12 +103,14 @@ export const tabData = [
     id: "world-6",
     heading: "Open Innovation",
     content:
-      "Do you possess unique skills that don't fit the traditional arenas? The Colosseum welcomes all warriors with innovative solutions to the kingdom's challenges. Bring forth your most creative weapons and prove your worth in this open battlefield of ideas.",
+      "Got a rare skill set that doesn’t fit the usual game modes? The Arena keeps its doors wide open for players with fresh hacks and wild ideas. Bring your most creative power-ups and show off your skills in this freestyle battleground where every original move can change the game.",
     img1: open_innov,
     prize_amt: "To be announced",
   },
 ];
 
+// runtime identifier used for debugging which module was loaded
+export const __source = 'tracks_new/data.js';
 export const startingFeatures = ["Event 1", "Event 2", "Event 3"];
 
 export const newFeatures = [

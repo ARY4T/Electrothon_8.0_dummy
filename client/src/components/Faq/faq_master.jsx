@@ -36,12 +36,12 @@ const initialQues = [
       content: "The winners will be awarded with lunar monetary prizes. The short-listed students will be given recognition and a chance to show off their skills. Winners of the finest hacks created using the partner firms' APIs and SDKs will receive special prizes.",
     },
     {
-      title: "What is the goal of the Electrothon 7.0?",
+      title: "What is the goal of the Electrothon 8.0?",
       content: "The goal of our voyage is to foster an atmosphere where innovative concepts and technology approaches are welcomed. A gathering spot for engineers, technologists, and designers to collaborate on challenges. We know that Rome was not built in a day, but a weekend is ample time to form teams of good people and begin creating great solutions.",
     },
     {
       title: "How does Electrothon promote diversity?",
-      content: "The Electrothon team believes that diversity is not just about women, it's about all of us. The 5.0 lunar voyage supports competitors from different regions, religions, the specially-abled, beginners, people of colour, and everybody who dreams to take a moonshot.",
+      content: "The Electrothon team believes that diversity is not just about women, it's about all of us. The 8.0 Arcade of Innovation supports competitors from different regions, religions, the specially-abled, beginners, people of colour, and everybody who dreams to take their shot at greatness.",
     },
     {
       title: "Do we need to apply in teams?",
